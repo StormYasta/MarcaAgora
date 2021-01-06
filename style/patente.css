@@ -1,0 +1,51 @@
+#main .patente{
+    text-align: justify;
+    font: 400 2rem var(--font-primary);
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+    margin: 1rem 4rem;
+}
+
+#main .patente h1{
+    margin: 2rem 0;
+}
+
+#main .patente .intro-patente h2{
+    margin: 1rem;
+}
+
+#main .tipos-patentes .patente-ind{
+    margin: 2rem 0;
+}
+
+@media(min-width: 700px){
+    #main{
+        margin: 1rem 12rem;
+    }
+
+    #main .tipos-patentes{
+        display: flex;
+        align-items: stretch;
+        font-size: 2rem;
+    }
+
+    #main .tipos-patentes .patente-ind{
+        margin: 2rem auto;
+        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: 1px solid var(--color-border);
+        border-radius: 1.6rem;
+        padding: 2rem;
+        transition: 200ms;
+    }
+
+    #main .tipos-patentes .patente-ind:hover{
+        transform: translateY(-2rem);
+    }
+
+    #main .tipos-patentes .patente-ind h2{
+        font-size: 3rem;
+    }
+}

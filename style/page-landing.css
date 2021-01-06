@@ -1,0 +1,324 @@
+#main{
+    margin: 1rem 4rem;
+}
+
+#main .banner img{
+    width: 100rem;
+    height: auto;
+}
+
+#main .intro{
+    text-align: justify;
+    font: 400 2rem var(--font-primary);
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+
+
+#main .registro{
+    display: block;
+    margin-top: 2rem;
+    border-bottom: 2px solid var(--color-border);
+    background: rgb(214,214,214);
+    background: linear-gradient(0deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 62%);
+}
+
+#main .registro .reg{
+    transition: .3s;
+}
+
+#main .registro .reg:hover{
+    transform: translateY(-1rem);
+}
+
+#main .registro a{
+    /* text-align: justify; */
+    font: 700 2.4rem var(--font-primary);
+    color: var(--color-button);
+    padding-bottom: 2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main .registro .reg img{
+    width: 5rem;
+    margin-right: .5rem;
+}
+
+#main .registro .reg .hover{
+    display: none;
+}
+
+#main .registro .reg:hover .stand{
+    display: none;
+}
+
+#main .registro .reg:hover .hover{
+    display: block;
+    
+}
+
+#main .depoimentos{
+    text-align: justify;
+    font: 400 2rem var(--font-primary);
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+    display: none;
+}
+
+#main .depoimentos .depoimentos-int .depoiment{
+    margin: 2rem 0;
+}
+
+#main .depoimentos img{
+    width: 6%;
+    height: auto;
+    margin: .2rem;
+}
+
+#main .depoimentos a{
+    width: 28rem;
+    height: 5rem;
+
+    border-radius: 0.8rem;
+    margin: 2rem auto 0;
+    background: var(--color-a-background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    font: 600 2rem var(--font-primary);
+    color: white;
+}
+
+#main .depoimentos a:hover{
+    background: var(--color-a-background-dark);
+}
+
+#main .beneficios{
+    text-align: justify;
+    font: 400 2rem var(--font-primary);
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+#main .beneficios .bene-ind{
+    display: flex;
+
+    margin: 3rem 0;
+}
+
+#main .beneficios img{
+    width: auto;
+    height: 3rem;
+    margin: .8rem;
+    color: var(--color-button-dark);
+}
+
+#main .beneficios a{
+    width: 32rem;
+    height: 5rem;
+
+    border-radius: 0.8rem;
+    margin: 2rem auto 0;
+    background: var(--color-a-background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    font: 600 2rem var(--font-primary);
+    color: white;
+}
+
+#main .beneficios a:hover{
+    background: var(--color-a-background-dark);
+}
+
+#main .explain{
+    text-align: justify;
+    font: 400 2rem var(--font-primary);
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+#main .explain .exp-ind h3{
+    text-align: center;
+    margin: 1rem;
+}
+
+#main .explain .exp-ind img{
+    width: auto;
+    height: 10rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+#main .contato{
+    text-align: justify;
+    font: 400 2rem var(--font-primary);
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--color-border);
+}
+
+#main .contato h1{
+    font-size: 3rem;
+}
+
+#main .contato .contato-ind{
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#main .contato-ind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+#main .contato-ind p{
+    font-size: 1.6rem;
+}
+
+#main .contato .contato-ind a{
+    width: 20rem;
+    height: 5rem;
+
+    border-radius: 0.8rem;
+    margin: auto;
+    background: var(--color-a-background);
+    /* padding: .4rem; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    font: 600 2rem var(--font-primary);
+    color: white;
+}
+
+#main .contato .contato-ind a:hover{
+    background-color: var(--color-a-background-dark);
+}
+
+#main .contato .contato-ind p{
+    margin: 1rem 0;
+}
+
+#main .contato img{
+    width: 20%;
+    margin: .4rem;
+}
+
+#main .contato .midia{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2rem;
+}
+
+#main .contato .midia img{
+    width: 3.8rem;
+    margin: .3rem;
+}
+
+
+@media (min-width: 700px){
+
+    #main{
+        margin: 1rem 12rem;
+    }
+
+    
+
+    #main .registro .regg{
+        display: flex;
+        justify-content: center;
+    }
+
+    #main .registro a{
+        font-size: 3.6rem;
+        margin: 3rem;
+    }
+
+    #main .registro .reg img{
+        width: 6rem;
+    }
+
+    #main .depoimentos .depoimentos-int{
+        display: flex;
+    }
+
+    #main .depoimentos .depoimentos-int .depoiment{
+        margin: 2.4rem;
+    }
+
+    #main .beneficios .beneficios-body{
+        display: flex;
+    }
+
+    #main .beneficios .bene{
+        margin: 2.4rem;
+        max-width: 38vw;
+    }
+
+    #main .exp{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #main .exp .exp-ind{
+        margin: 2rem auto;
+        width: 33vw;
+    }
+
+    #main .contato .contato-body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        
+    }
+
+    #main .contato .contato-ind{
+        justify-items: center;
+        padding: auto;
+        text-align: center;
+        margin: 0;
+    }
+
+    #main .contato .contato-ind a{
+        margin: 0; 
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #main .contato .midia{
+        margin: auto 4rem;
+    }
+
+    
+}

@@ -1,0 +1,91 @@
+.page-header{    
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header .top-bar-container{
+    margin: 1.4rem 8rem;
+}
+
+.page-header .top-bar-container .logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.page-header .top-bar-container .logo img{
+    margin-bottom: 1rem;
+}
+
+.page-header .top-bar-container .button-container{
+    text-align: center;
+    padding-bottom: 1rem;
+
+    margin: auto;
+}
+
+.page-header .top-bar-container .button-container a{
+    font: 700 2.6rem var(--font-button-primary);
+    color: var(--color-button);
+    cursor: pointer;
+    margin: 0 .4rem;
+
+    text-decoration: none;
+
+    background: none;
+    transition: 0.4s;
+}
+
+.page-header .top-bar-container .button-container a:hover{
+    color: var(--color-button-dark);
+}
+
+footer{
+    background: rgb(214,214,214);
+    background: linear-gradient(0deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 62%);
+}
+
+footer .logo{
+    width: 20rem;
+    margin: 1rem auto;
+}
+
+footer .citacao {
+    text-align: justify;
+    font: 400 1.4rem var(--font-primary);
+    padding-bottom: 2rem;
+    margin: 0 2rem;
+}
+
+@media (min-width: 700px){
+    .page-header .top-bar-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .page-header .top-bar-container .logo{
+        width: 15%;
+        margin: auto;
+    }
+
+    .page-header .top-bar-container .button-container a{
+        font-size: 2.2rem;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    footer .logo{
+        margin: 1rem 20rem;
+    }
+
+    footer .citacao{
+        width: 30vw;
+        font-size: 1.6rem;
+        /* margin: 0 16rem; */
+    }
+}
